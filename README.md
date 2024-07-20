@@ -5,8 +5,14 @@ uvicorn  src.app.main:app --reload
 ```
 
 
-##### Tests
+##### Run Tests
 
 ```bash
 ./src/tests/test_main.py
+```
+
+##### Run Pre-commit
+
+```bash
+./src/scripts/linter.sh
 ```
